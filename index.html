@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadraste seu veiculo para vender mais rapido!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>fomulario</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda facil seu carro</h1>
+                <p>Descreva as caracteristicas e e marque os opcionais que ele possui</p>
+                <form>
+                    <div class="box-imput">
+                        <label for="title">Titulo do anuncio<span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" class="block" placeholder="Anucie seu carro aqui" minlength="1" maxlength="30" required>
+                    </div>
+                    <div class="box-imput">
+                        <label for="price">Preço<span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" class="block" placeholder="defina o preço" required>
+                    </div>
+                    <div class="box-imput">
+                        <label for="descrição">Descrição do carro<span class="required-field">*</span></label>
+                        <textarea name="descrição" id="descrição" class="block" placeholder="defina seu carro"></textarea>
+                    </div>
+                    <div class="box-imput">
+                        <label for="marca">Titulo do anuncio<span class="required-field">*</span></label>
+                        <input type="text" name="marca" id="marca" class="block" placeholder="Digite a marca do veiculo"  required>
+                    </div>
+                    <div class="box-imput">
+                        <label for="modelo">Modelo do carro<span class="required-field">*</span></label>
+                        <input type="text" name="modelo" id="modelo" class="block" placeholder="Digite a modelo do veiculo"  required>
+                    </div>
+                    <div class="box-imput">
+                        <label for="km">kilometragem do carro<span class="required-field">*</span></label>
+                        <input type="number" name="km" id="km" class="block" placeholder="Informe qauntos km o veiculo possui"  required>
+                    <input type="submit" value="enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

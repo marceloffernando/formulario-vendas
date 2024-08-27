@@ -18,9 +18,10 @@ input{
     border: none;
     border-bottom: 1px solid #ccc; 
     padding: 10px 0px;
+    
 }
 input[type=text],input[type=number],input[type=date],input[type=file],textarea{
-    width: 400px;
+    width: 97%;
 }
 textarea{
     padding-bottom: 20PX;
@@ -34,9 +35,9 @@ textarea{
 }
 .header h3{
     color: white;
-    margin-top: 0;
-    ;
+    padding: 10px;
 }
+
 /* form conatiner */
 .form-container{
     background-color: white;
@@ -44,4 +45,53 @@ textarea{
     margin: 0 auto; /*centraliza o container */
     position: relative;
     top: -62px; /*container fica sobre o header*/
+}
+.form-header{
+    border-bottom: 1px solid #b4b1b1;
+    height: 45px;
+}
+.form-header p {
+    color: rgb(126, 8, 236);
+    border-bottom: 2px solid rgb(126, 8, 236);
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+/* fomr body */
+.form-body{
+    padding: 20px ;
+}
+.form-title{
+    margin-bottom: 5px;
+}
+.form-body p {
+    margin-bottom: 20px;
+}
+.required-field{
+    color: red;
+}
+.box-imput{
+    margin-bottom: 10px;
+}
+.block{
+    display: block;
+}
+.btn-submit{
+    background-color: white;
+    color: rgb(126, 8, 236) ;
+    width: 80px;
+    border: 2px solid rgb(126, 8, 236);
+    cursor: pointer;
+    
+    transition: 0.5s;
+}
+.btn-submit:hover{
+    background-color: rgb(91, 5, 252);
+    color: white;
+    
+    
 }

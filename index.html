@@ -17,7 +17,7 @@
             </div>
             <div class="form-body">
                 <h1 class="form-title">Venda facil seu carro</h1>
-                <p>Descreva as caracteristicas e e marque os opcionais que ele possui</p>
+                <p>Descreva as caracteristicas que o veiculo possui</p>
                 <form>
                     <div class="box-imput">
                         <label for="title">Titulo do anuncio<span class="required-field">*</span></label>
@@ -29,10 +29,10 @@
                     </div>
                     <div class="box-imput">
                         <label for="descrição">Descrição do carro<span class="required-field">*</span></label>
-                        <textarea name="descrição" id="descrição" class="block" placeholder="defina seu carro"></textarea>
+                        <textarea name="descrição" id="descrição" class="block" placeholder="defina seu carro" required></textarea>
                     </div>
                     <div class="box-imput">
-                        <label for="marca">Titulo do anuncio<span class="required-field">*</span></label>
+                        <label for="marca">Marca<span class="required-field">*</span></label>
                         <input type="text" name="marca" id="marca" class="block" placeholder="Digite a marca do veiculo"  required>
                     </div>
                     <div class="box-imput">
@@ -42,7 +42,8 @@
                     <div class="box-imput">
                         <label for="km">kilometragem do carro<span class="required-field">*</span></label>
                         <input type="number" name="km" id="km" class="block" placeholder="Informe qauntos km o veiculo possui"  required>
-                    <input type="submit" value="enviar">
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
                 </form>
             </div>
         </div>
